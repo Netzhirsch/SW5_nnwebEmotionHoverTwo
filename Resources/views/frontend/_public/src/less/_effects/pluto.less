@@ -1,0 +1,62 @@
+.nnweb_emotion_hover_two.pluto {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+	.wrapper {
+		display:flex;
+		position:static;
+		width:80%;
+		flex-direction:column;
+		align-items:center;
+		justify-content:center;
+		overflow:visible;
+		
+		.headline,
+		p,
+		a, span.btn {
+			display:block;
+			position:static;
+			margin:1em 0;
+		}
+	}
+	
+	&:hover {
+	
+		&:before {
+			opacity:0.5;
+			transform:rotate(45deg);
+		}	
+	
+		&:after {
+			opacity:0.5;
+			transform:rotate(-45deg);
+		}
+	
+		.wrapper {
+		
+			.headline,
+			p,
+			a, span.btn {
+				margin:2em 0;
+				box-shadow:0 0 4px 4px rgba(0,0,0,0.5);
+			}
+		}	
+	}
+}
+
+@media @touch {
+	.nnweb_emotion_hover_two.pluto,
+	.nnweb_emotion_hover_two.pluto:hover {
+	
+		.wrapper {
+		
+			.headline,
+			p,
+			a, span.btn {
+				margin:1em 0;
+				box-shadow:0 0 4px 4px rgba(0,0,0,0.5);
+			}
+		}
+	}
+}

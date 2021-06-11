@@ -1,0 +1,74 @@
+.nnweb_emotion_hover_two.neptun {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+	&:before,
+	&:after {
+		content:'';
+		display:block;
+		position:absolute;
+		left:10%; top:50%;
+		width:80%;
+		height:1px;
+		background:white;
+	}
+	
+	.wrapper {
+		display:flex;
+		position:static;
+		width:80%;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	
+		.headline,
+		p,
+		a, span.btn {
+			display:block;
+			position:static;
+			margin:1em 0;
+		}
+	}
+	
+	&:hover {
+	
+		&:before {
+			opacity:0.5;
+			transform:rotate(45deg);
+		}	
+	
+		&:after {
+			opacity:0.5;
+			transform:rotate(-45deg);
+		}
+	
+		.wrapper {
+		
+			.headline,
+			p,
+			a, span.btn {
+				margin:2em 0;
+			}
+		}	
+	}
+}
+
+@media @touch {
+	.nnweb_emotion_hover_two.neptun:hover {
+		
+		&:before,
+		&:after {
+			display:none;
+		}
+	
+		.wrapper {
+		
+			.headline,
+			p,
+			a, span.btn {
+				margin:1em 0;
+			}
+		}
+	}
+}

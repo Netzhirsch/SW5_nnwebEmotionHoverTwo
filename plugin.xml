@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.2/engine/Shopware/Components/Plugin/schema/plugin.xsd">
+    
+    <label>Many hover effects two for emotion elements</label>
+    <label lang="de">Viele Hover-Effekte Zwei für Einkaufswelten</label>
+
+    <version>1.0.1</version>
+    <copyright>Copyright (c) 2021, Netzhirsch GbR</copyright>
+    <license>proprietary</license>
+    <link>https://www.netzhirsch.de</link>
+    <author>Netzhirsch GbR</author>
+    <compatibility minVersion="5.2.0"/>
+
+    <changelog version="1.0.0">
+        <changes><![CDATA[Initial Release of the plugin.]]></changes>
+        <changes lang="de"><![CDATA[Erstveröffentlichung des Plugins.]]></changes>
+    </changelog>
+
+    <changelog version="1.0.1">
+        <changes lang="de">Kompatibilität zu Shopware 5.7 hergestellt.</changes>
+        <changes>Compatibility with Shopware 5.7 made.</changes>
+    </changelog>
+
+    <description><![CDATA[With this plugin you can easily create emotion elements with a several hover effects. You can easily choose from six different hover effects via select menu.]]></description>
+    <description lang="de"><![CDATA[Mit diesem Plugin können Sie ganz einfach Einkaufswelten-Elemente mit Hover-Effekten erstellen. Sie haben sechs verschieden Hover-Effekte zur Auswahl.]]></description>
+
+</plugin>
